@@ -298,7 +298,7 @@ background-size: cover;
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	background-color: #FF013C;
+	background-color: firebrick;
 	position: relative;
 	left: 0;
     animation: loading infinite ease-in;
