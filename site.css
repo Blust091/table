@@ -405,6 +405,7 @@ background-size: cover;
     100%{
          left: 91.5%;
          transform: rotate(360deg);
+	    
     }
 }
 .load{
@@ -415,3 +416,28 @@ background-size: cover;
     animation-direction: alternate;
    
 }
+@media screen and (min-width: 300px) and (max-width: 1200px){
+    nav{
+		max-width: 40%;
+	    	clear: both;
+		font-size: 1.3em;
+
+	}
+	button{
+		margin: auto;
+		max-width: 40%;
+		
+		font-size: small;
+
+	}
+	h2{
+	width: 100px;
+	}
+	section{
+		font-size: 1rem;
+	}
+	.vib{
+		border-radius: 10%;
+	}
+    }
+
